@@ -1,0 +1,27 @@
+{
+  "name": "login-take-snapshot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "snapshot.js",
+  "scripts": {
+    "start": "phantomjs snapshot.js",
+    "baidu": "phantomjs baidu.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxd3vin/login-take-snapshot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxd3vin/login-take-snapshot/issues"
+  },
+  "homepage": "https://github.com/xxd3vin/login-take-snapshot#readme",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "phantomjs-prebuilt": "^2.1.15"
+  }
+}

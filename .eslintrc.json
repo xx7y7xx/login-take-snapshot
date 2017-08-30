@@ -1,0 +1,24 @@
+{
+    "extends": "airbnb-base",
+    "plugins": [
+      "import"
+    ],
+    "env": {
+        "browser": true,
+        "phantomjs": true
+    },
+    "settings": {
+        "import/core-modules": [
+            "webpage",
+            "system"
+        ]
+    },
+    "rules": {
+        "no-debugger": 0,
+        "no-var": 0,
+        "no-template-curly-in-string": 0,
+        "prefer-template": 0,
+        "prefer-arrow-callback": 0,
+        "func-names": 0
+    }
+}
